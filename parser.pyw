@@ -212,6 +212,8 @@ country_title = Label (text=str_country, bg='#006064', fg='#80DEEA')
 country_title.pack (fill=X)
 
 country = Combobox(state='readonly')
+country['values'] = [str_all_countries]
+country.current (0)
 country.pack (padx=10, pady=10)
 country.bind ("<<ComboboxSelected>>", get_city_list)
 
@@ -219,6 +221,8 @@ city_title = Label (text=str_city, bg='#006064', fg='#80DEEA')
 city_title.pack (fill=X)
 
 city = Combobox(state='readonly')
+city['values'] = [str_all_cities]
+city.current (0)
 city.pack (padx=10, pady=10)
 
 advanced_settings_title = Label (text=str_advanced_settings, bg='#006064', fg='#80DEEA')
