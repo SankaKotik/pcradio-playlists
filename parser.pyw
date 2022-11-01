@@ -1,7 +1,7 @@
-from tkinter import * 
-from tkinter import ttk
-from tkinter.ttk import Combobox
+from tkinter import *
+from tkinter.ttk import *
 from tkinter import filedialog
+from pathlib import Path
 import wget
 import pyzipper
 import locale
@@ -66,15 +66,13 @@ def download_ziplist ():
     try:
         ziplist = wget.download(f'http://stream.pcradio.ru/list/list_{lang.get ()}/list_{lang.get ()}.zip')
     except:
-        statusbar.configure (text=str_downloading_error, bg="#B71C1C", fg="#EF9A9A")
+        statusbar.configure (text=str_downloading_error, background="#B71C1C", foreground="#EF9A9A")
         return
     
     with pyzipper.AESZipFile(ziplist) as ziplist:
         ziplist.pwd = b'78951233215987'
         with ziplist.open(f'list_{lang.get ()}.json') as json_data:
             load_data (json_data)
-    
-    statusbar.configure (text=f'list_{lang.get ()}.json', bg="#33691E", fg="#C5E1A5")
 
 def input_file ():
     global json_file
@@ -91,7 +89,7 @@ def load_data (json_data):
     for current_country in data['countries']:
         country['values'] += (current_country['name'],)
     
-    statusbar.configure (text=str_data_loaded, bg="#33691E", fg="#C5E1A5")
+    statusbar.configure (text=str_data_loaded, background="#33691E", foreground="#C5E1A5")
     mk_btn.configure (state="normal")
 
 def search_in_array (wheretolook, inputdata, sourcetype, typeweneed):
@@ -108,22 +106,22 @@ def get_city_list (event):
             city['values'] += (search_in_array ('cities', current_city, 'id', 'name'),)
 
 def write_file ():
-    statusbar.configure (text=str_processing, bg='#311B92', fg="#B39DDB")
+    statusbar.configure (text=str_processing, background='#311B92', foreground="#B39DDB")
     
     if genre_split_state.get ():
         workdir = filedialog.askdirectory()
         if workdir == '':
-            statusbar.configure (text=str_folder_not_selected, bg='#B71C1C', fg='#EF9A9A')
+            statusbar.configure (text=str_folder_not_selected, background='#B71C1C', foreground='#EF9A9A')
             return
     else:
         workfile = filedialog.asksaveasfilename(filetypes=[('M3U', '*.m3u')], defaultextension='.m3u')
         if workfile == '':
-            statusbar.configure (text=str_file_not_selected, bg='#B71C1C', fg='#EF9A9A')
+            statusbar.configure (text=str_file_not_selected, background='#B71C1C', foreground='#EF9A9A')
             return
 
     if genre_split_state.get ():
         for current_genre in data['genres']:
-            with open(workdir + f'\{current_genre["name"]}.m3u', 'a') as current_file:
+            with open(Path (workdir, f'{current_genre["name"]}.m3u'), 'a') as current_file:
                 current_file.write ('#EXTM3U\n')
     else:
         with open(workfile, 'a') as current_file:
@@ -157,108 +155,125 @@ def write_file ():
         for current_genre_id in current_channel_genres:
             current_genre = search_in_array ('genres', str(current_genre_id), 'id', 'name')
             if genre_split_state.get ():
-                current_genre_file = f'{workdir}\{current_genre}.m3u'
+                current_genre_file = Path (workdir, f'{current_genre}.m3u')
             else:
                 current_genre_file = workfile
             if add_metadata_state.get ():
-                metadata = f' tvg-logo=\"{current_logo}\" group-title=\"{current_genre}\" radio=\"true\"'
+                channel_genres = ''
+                for current_genre_id in current_channel_genres:
+                    current_genre = search_in_array ('genres', str(current_genre_id), 'id', 'name')
+                    channel_genres += current_genre + ';'
+                channel_genres = channel_genres[:-1]
+                metadata = f' tvg-logo=\"{current_logo}\" group-title=\"{channel_genres}\" radio=\"true\"'
             else:
                 metadata = ''
             with open(current_genre_file, 'a') as current_file:
                 current_file.write (f'#EXTINF:-1{metadata}, {current_channel["name"]}\n')
             with open(current_genre_file, 'a') as current_file:
                 current_file.write (f'{current_stream}-{quality.get()}\n')
-            if not (genre_split_state.get () or add_metadata_state.get ()):
+            if not (genre_split_state.get ()):
                 break
 
     statusbar.configure (text=str_done, background='#BF360C', foreground='#FFAB91')
 
 root = Tk ()
 root.title (str_app_title)
-root.geometry ('240x620')
 root.resizable (width=False, height=False)
 root.attributes ('-alpha', 0.9)
-root.config (bg='#222')
+root.config (background='#222')
 
-input_file_title = Label (text=str_file_selection, bg='#006064', fg='#80DEEA')
+Style().configure ('.', background='#222', foreground='#AAA', anchor='center')
+Style().map ('.', background=[('active', '#222')], foreground=[('active', '#CCC')])
+Style().configure ('TLabel', background='#006064', foreground='#80DEEA')
+Style().configure ('TCombobox', fieldbackground='#222')
+Style().map ('TCombobox', fieldbackground=[('active', '#222')])
+Style().configure ('TRadiobutton', indicatorcolor='#222')
+Style().configure ('TCheckbutton', indicatorcolor='#222')
+
+left_grp = Frame ()
+right_grp = Frame ()
+
+input_file_title = Label (left_grp, text=str_file_selection)
 input_file_title.pack (fill=X)
 
-choose_btn = Button (text=str_select_file, bg='#222', fg='#AAA', activebackground='#222', activeforeground='#CCC', command=input_file)
+choose_btn = Button (left_grp, text=str_select_file, command=input_file)
 choose_btn.pack (padx=10, pady=10)
 
-download_file_title = Label (text=str_file_downloading, bg='#006064', fg='#80DEEA')
+download_file_title = Label (right_grp, text=str_file_downloading)
 download_file_title.pack (fill=X)
 
-lang_grp = Frame ()
 lang = StringVar ()
 lang.set ('ru')
-Radiobutton (lang_grp, text=str_lang_ru, bg='#222', fg='#AAA', activebackground='#222', activeforeground='#CCC', selectcolor='#222', value='ru', variable=lang).pack (side=LEFT)
-Radiobutton (lang_grp, text=str_lang_en, bg='#222', fg='#AAA', activebackground='#222', activeforeground='#CCC', selectcolor='#222', value='en', variable=lang).pack (side=LEFT)
-lang_grp.pack ()
+Radiobutton (right_grp, text=str_lang_ru, value='ru', variable=lang).pack ()
+Radiobutton (right_grp, text=str_lang_en, value='en', variable=lang).pack ()
 
-dl_btn = Button (text=str_download_file, bg='#222', fg='#AAA', activebackground='#222', activeforeground='#CCC', command=download_ziplist)
+dl_btn = Button (right_grp, text=str_download_file, command=download_ziplist)
 dl_btn.pack (padx=10, pady=10)
 
-quality_title = Label (text=str_quality, bg='#006064', fg='#80DEEA')
+quality_title = Label (left_grp, text=str_quality)
 quality_title.pack (fill=X)
 
 quality = StringVar ()
 quality.set ('med')
-Radiobutton (text='ЭКОНОМ (28K, AAC)', bg='#222', fg='#AAA', activebackground='#222', activeforeground='#CCC', selectcolor='#222', value='low', variable=quality).pack ()
-Radiobutton (text='СТАНДАРТ (42K, AAC)', bg='#222', fg='#AAA', activebackground='#222', activeforeground='#CCC', selectcolor='#222', value='med', variable=quality).pack ()
-Radiobutton (text='ПРЕМИУМ (64K, AAC)', bg='#222', fg='#AAA', activebackground='#222', activeforeground='#CCC', selectcolor='#222', value='hi', variable=quality).pack ()
+Radiobutton (left_grp, text='ЭКОНОМ (28K, AAC)', value='low', variable=quality).pack ()
+Radiobutton (left_grp, text='СТАНДАРТ (42K, AAC)', value='med', variable=quality).pack ()
+Radiobutton (left_grp, text='ПРЕМИУМ (64K, AAC)', value='hi', variable=quality).pack ()
 
-country_title = Label (text=str_country, bg='#006064', fg='#80DEEA')
+country_title = Label (left_grp, text=str_country)
 country_title.pack (fill=X)
 
-country = Combobox(state='readonly')
+country = Combobox(left_grp, state='readonly')
 country['values'] = [str_all_countries]
 country.current (0)
 country.pack (padx=10, pady=10)
 country.bind ("<<ComboboxSelected>>", get_city_list)
 
-city_title = Label (text=str_city, bg='#006064', fg='#80DEEA')
+city_title = Label (left_grp, text=str_city)
 city_title.pack (fill=X)
 
-city = Combobox(state='readonly')
+city = Combobox(left_grp, state='readonly')
 city['values'] = [str_all_cities]
 city.current (0)
 city.pack (padx=10, pady=10)
 
-advanced_settings_title = Label (text=str_advanced_settings, bg='#006064', fg='#80DEEA')
+advanced_settings_title = Label (right_grp, text=str_advanced_settings)
 advanced_settings_title.pack (fill=X)
 
 fix_stream_state = BooleanVar ()
 fix_stream_state.set (True)
-fix_stream = Checkbutton(text=str_fix_stream, bg='#222', fg='#AAA', activebackground='#222', activeforeground='#CCC', selectcolor='#222', var=fix_stream_state)
+fix_stream = Checkbutton(right_grp, text=str_fix_stream, var=fix_stream_state)
 fix_stream.pack ()
 
-fix_stream_mode = Combobox(values=['http://str.pcradio.ru/', 'http://str3.pcradio.ru/'])
+fix_stream_mode = Combobox(right_grp, values=['http://str.pcradio.ru/', 'http://str3.pcradio.ru/'])
 fix_stream_mode.current (0)
 fix_stream_mode.pack ()
 
 genre_split_state = BooleanVar ()
 genre_split_state.set (False)
-genre_split = Checkbutton(text=str_genre_split, bg='#222', fg='#AAA', activebackground='#222', activeforeground='#CCC', selectcolor='#222', var=genre_split_state)
+genre_split = Checkbutton(right_grp, text=str_genre_split, var=genre_split_state)
 genre_split.pack ()
 
 add_metadata_state = BooleanVar ()
 add_metadata_state.set (True)
-add_metadata = Checkbutton(text=str_add_metadata, bg='#222', fg='#AAA', activebackground='#222', activeforeground='#CCC', selectcolor='#222', var=add_metadata_state)
+add_metadata = Checkbutton(right_grp, text=str_add_metadata, var=add_metadata_state)
 add_metadata.pack ()
 
 hq_logo_state = BooleanVar ()
 hq_logo_state.set (True)
-hq_logo = Checkbutton(text=str_quality_logo, bg='#222', fg='#AAA', activebackground='#222', activeforeground='#CCC', selectcolor='#222', var=hq_logo_state)
+hq_logo = Checkbutton(right_grp, text=str_quality_logo, var=hq_logo_state)
 hq_logo.pack ()
 
-save_as_title = Label (text=str_saving, bg='#006064', fg='#80DEEA')
+save_as_title = Label (right_grp, text=str_saving)
 save_as_title.pack (fill=X)
 
-mk_btn = Button (text=str_write_to_m3u, bg='#222', fg='#AAA', activebackground='#222', activeforeground='#CCC', command=write_file, state='disabled')
+mk_btn = Button (right_grp, text=str_write_to_m3u, command=write_file, state='disabled')
 mk_btn.pack (padx=10, pady=10)
 
-statusbar = Label (text=str_file_not_selected, bg='#880E4F', fg='#F48FB1')
+statusbar = Label (text=str_file_not_selected, background='#880E4F', foreground='#F48FB1')
 statusbar.pack (side=BOTTOM, fill=X)
+
+left_grp.pack (side=LEFT, ipadx=10)
+Label ().pack (side=LEFT, fill=Y)
+right_grp.pack (side=RIGHT, ipadx=10)
 
 root.mainloop ()
