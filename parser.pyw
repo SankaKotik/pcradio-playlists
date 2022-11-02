@@ -2,6 +2,7 @@ from tkinter import *
 from tkinter.ttk import *
 from tkinter import filedialog
 from pathlib import Path
+from urllib.parse import urlparse
 import wget
 import pyzipper
 import locale
@@ -142,7 +143,8 @@ def write_file ():
                 continue
         
         if fix_stream_state.get ():
-            current_stream = current_channel['stream'].replace ('http://stream.pcradio.ru:8000/', fix_stream_mode.get())
+            #current_stream = fix_stream_mode.get () + urlparse (current_channel['stream']).path
+            current_stream = urlparse (current_channel['stream'])._replace (netloc = fix_stream_mode.get ()).geturl ()
         else:
             current_stream = current_channel['stream']
         current_channel_genres = current_channel['genres_ids']
@@ -244,7 +246,7 @@ fix_stream_state.set (True)
 fix_stream = Checkbutton(right_grp, text=str_fix_stream, var=fix_stream_state)
 fix_stream.pack ()
 
-fix_stream_mode = Combobox(right_grp, values=['http://str.pcradio.ru/', 'http://str3.pcradio.ru/'])
+fix_stream_mode = Combobox(right_grp, values=['str.pcradio.ru', 'str3.pcradio.ru'])
 fix_stream_mode.current (0)
 fix_stream_mode.pack ()
 
