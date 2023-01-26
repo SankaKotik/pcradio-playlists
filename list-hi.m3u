@@ -1,4 +1,36 @@
 #EXTM3U
+#EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1674568340-350.png" group-title="Танцевальная;Электронная" radio="true", Burana Select Radio
+http://str3.pcradio.ru/rad_brnslctrd-hi
+#EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1674568981-350.png" group-title="Джаз, Блюз, Соул" radio="true", Big R Radio - Vocal Jazz 
+http://str3.pcradio.ru/rad_bgrrdvcljzz-hi
+#EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1674569173-350.jpeg" group-title="Прошлых лет;Аудиокниги" radio="true", Радиотеатр
+http://str3.pcradio.ru/rad_rtrclbrdttr-hi
+#EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1673797267-350.jpeg" group-title="Новости, Разговорное;Смешанный;Шансон" radio="true", Вестник Родовых Поместий
+http://str3.pcradio.ru/rad_vstnkrp-hi
+#EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1673797697-350.jpeg" group-title="Поп;Танцевальная" radio="true", Радио Золотая Колесница
+http://str3.pcradio.ru/rad_gldnchrtr-hi
+#EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1673798818-350.jpeg" group-title="Поп;Прошлых лет;Национальная" radio="true", Radyo 45lik
+http://str3.pcradio.ru/rad_rdy45lk-hi
+#EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1673798956-350.jpeg" group-title="Релакс, Легкая музыка" radio="true", Radio Deepa.Net - Relax
+http://str3.pcradio.ru/rad_rddpchll-hi
+#EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1673799406-350.jpeg" group-title="Национальная" radio="true", Radio Amigos da MPB
+http://str3.pcradio.ru/rad_rdmgsdmpb-hi
+#EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1673799632-350.jpeg" group-title="Танцевальная;Электронная;Национальная" radio="true", Tropicalida
+http://str3.pcradio.ru/rad__trpclds-hi
+#EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1673809637-350.jpeg" group-title="Национальная" radio="true", Черкес ФМ
+http://str3.pcradio.ru/rad_chrksfm-hi
+#EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1673809870-350.jpeg" group-title="Электронная;Релакс, Легкая музыка" radio="true", Riviera Lounge
+http://str3.pcradio.ru/rad_rvrlngrd-hi
+#EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1673810512-350.jpeg" group-title="Религия, Духовная" radio="true", Радио Благо
+http://str3.pcradio.ru/rad_rdblgr-hi
+#EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1673811968-350.jpeg" group-title="Рок" radio="true", RPR1. Kuschelrock
+http://str3.pcradio.ru/rad_kschlrck-hi
+#EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1673812206-350.jpeg" group-title="Смешанный;Релакс, Легкая музыка" radio="true", 1000 HITS Love
+http://str3.pcradio.ru/rad_htslv1-hi
+#EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1673478002-350.jpeg" group-title="Поп;Танцевальная;Смешанный;Релакс, Легкая музыка" radio="true", Radio DELUXE
+http://str3.pcradio.ru/radiodeluxehostingradioru-hi
+#EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1673479418-350.jpeg" group-title="Поп;Смешанный;Разное" radio="true", Наше радио США
+http://str3.pcradio.ru/nashereghostingradioru-hi
 #EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1672071576-350.jpeg" group-title="Новости, Разговорное" radio="true", InVoice Radio
 http://str3.pcradio.ru/rad_nvcmdr-hi
 #EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1672072195-350.png" group-title="Электронная;Релакс, Легкая музыка" radio="true", CleansingMusic - Beyond Words
@@ -565,12 +597,6 @@ http://str3.pcradio.ru/rad_bgfmde-hi
 http://str3.pcradio.ru/rad_cnnspnlcnn-hi
 #EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1653696692-350.jpeg" group-title="Электронная;Релакс, Легкая музыка" radio="true", RT1 Chill Out
 http://str3.pcradio.ru/rad_rtclbbng-hi
-#EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1653691783-350.jpeg" group-title="Танцевальная" radio="true", Energy Made in Germany
-http://str3.pcradio.ru/rad_demdngrmn-hi
-#EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1653692429-350.jpeg" group-title="Поп;Танцевальная" radio="true", Energy Summer Hits
-http://str3.pcradio.ru/rad_desmmrhts-hi
-#EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1653695655-350.jpeg" group-title="Электронная;Релакс, Легкая музыка" radio="true", RT1 Home Office
-http://str3.pcradio.ru/rad_rt1hmffc-hi
 #EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1653644317-350.jpeg" group-title="Релакс, Легкая музыка" radio="true", Radio Dubai Lounge
 http://str3.pcradio.ru/rad_dbilng-hi
 #EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1653645291-350.jpeg" group-title="Электронная;Релакс, Легкая музыка" radio="true", Voices of the Univerce
@@ -595,6 +621,12 @@ http://str3.pcradio.ru/rad_rdikdk-hi
 http://str3.pcradio.ru/rad_trclrsrdr-hi
 #EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1653679508-350.jpeg" group-title="Йога, Спа, Медитация;Фанк, Диско" radio="true", FluxFM - Yoga Sounds
 http://str3.pcradio.ru/rad_flxygsnds-hi
+#EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1653691783-350.jpeg" group-title="Танцевальная" radio="true", Energy Made in Germany
+http://str3.pcradio.ru/rad_demdngrmn-hi
+#EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1653692429-350.jpeg" group-title="Поп;Танцевальная" radio="true", Energy Summer Hits
+http://str3.pcradio.ru/rad_desmmrhts-hi
+#EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1653695655-350.jpeg" group-title="Электронная;Релакс, Легкая музыка" radio="true", RT1 Home Office
+http://str3.pcradio.ru/rad_rt1hmffc-hi
 #EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1653409336-350.png" group-title="Поп;Новости, Разговорное" radio="true", Radio Blanik CZ 
 http://str3.pcradio.ru/rad_rdblnkcz-hi
 #EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1653346573-350.jpeg" group-title="Поп" radio="true", RADIO24.RU
@@ -639,8 +671,6 @@ http://str3.pcradio.ru/rad_tblsfm-hi
 http://str3.pcradio.ru/rad_d1ltrntvcm-hi
 #EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1651588561-350.jpeg" group-title="Электронная" radio="true", FluxFM - Techno Underground
 http://str3.pcradio.ru/rad_tchnndrgrnd-hi
-#EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1651608490-350.jpeg" group-title="Смешанный" radio="true", Meow.Radio
-http://str3.pcradio.ru/rad_mwrdffcl-hi
 #EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1651609174-350.jpeg" group-title="Релакс, Легкая музыка;Классика" radio="true", Esperante Radio
 http://str3.pcradio.ru/rad_sprntrd-hi
 #EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1651609976-350.jpeg" group-title="Релакс, Легкая музыка;Религия, Духовная;Йога, Спа, Медитация" radio="true", САМОПОЗНАНИЕ.online
@@ -1425,16 +1455,6 @@ http://str3.pcradio.ru/fmhits_80s-hi
 http://str3.pcradio.ru/vegaradio_ru-hi
 #EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1651523676-350.jpeg" group-title="Смешанный" radio="true", Авторадио (Хабаровск)
 http://str3.pcradio.ru/avtoradio_habar-hi
-#EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1608495691-350.jpeg" group-title="Религия, Духовная" radio="true", Radio Motivation Spirituelle
-http://str3.pcradio.ru/motiva_spiri-hi
-#EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1608495931-350.jpeg" group-title="Релакс, Легкая музыка;Прошлых лет" radio="true", Love Radio (Нью-Йорк)
-http://str3.pcradio.ru/love_ny-hi
-#EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1608496342-350.jpeg" group-title="Рок" radio="true", Radio BOB! Best of Rock
-http://str3.pcradio.ru/bobde_bestrock-hi
-#EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1608496646-350.jpeg" group-title="Рок" radio="true", Radio BOB! Hardrock
-http://str3.pcradio.ru/bobde_hardrock-hi
-#EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1608496723-350.jpeg" group-title="Рок" radio="true", Radio BOB! Grunge
-http://str3.pcradio.ru/bobde_grunge-hi
 #EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1608496807-350.jpeg" group-title="Рок" radio="true", Radio BOB! Harte Saite
 http://str3.pcradio.ru/bobde_hartesaite-hi
 #EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1608496879-350.jpeg" group-title="Рок" radio="true", Radio BOB! Alternative
@@ -1461,20 +1481,16 @@ http://str3.pcradio.ru/rvplus_be-hi
 http://str3.pcradio.ru/rwradio_ml-hi
 #EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1608497938-350.jpeg" group-title="Кантри, Американа, Блюграс" radio="true", The Wolf Australia
 http://str3.pcradio.ru/wolfradio_com_au-hi
-#EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1606995934-350.jpeg" group-title="Прошлых лет" radio="true", Nostalgic FM
-http://str3.pcradio.ru/nostalgic_ro-hi
-#EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1606997906-350.jpeg" group-title="Джаз, Блюз, Соул" radio="true", Радио Рыжий Сентябрь
-http://str3.pcradio.ru/ryzhiy_sent-hi
-#EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1607000554-350.jpeg" group-title="Релакс, Легкая музыка" radio="true", Nicefm
-http://str3.pcradio.ru/nicefm_ru-hi
-#EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1607001343-350.jpeg" group-title="Рэп, Хип-хоп, RnB" radio="true", Badradio
-http://str3.pcradio.ru/badradio_nz-hi
-#EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1607001436-350.jpeg" group-title="Танцевальная" radio="true", VOX FM
-http://str3.pcradio.ru/voxfm_pl-hi
-#EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1607001636-350.jpeg" group-title="Поп;Прошлых лет" radio="true", Radio Piekary 88.7 FM
-http://str3.pcradio.ru/piekary_887-hi
-#EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1607003001-350.jpeg" group-title="Смешанный" radio="true", Freies Radio Salzkammergut
-http://str3.pcradio.ru/freies_salz_at-hi
+#EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1608495691-350.jpeg" group-title="Религия, Духовная" radio="true", Radio Motivation Spirituelle
+http://str3.pcradio.ru/motiva_spiri-hi
+#EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1608495931-350.jpeg" group-title="Релакс, Легкая музыка;Прошлых лет" radio="true", Love Radio (Нью-Йорк)
+http://str3.pcradio.ru/love_ny-hi
+#EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1608496342-350.jpeg" group-title="Рок" radio="true", Radio BOB! Best of Rock
+http://str3.pcradio.ru/bobde_bestrock-hi
+#EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1608496646-350.jpeg" group-title="Рок" radio="true", Radio BOB! Hardrock
+http://str3.pcradio.ru/bobde_hardrock-hi
+#EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1608496723-350.jpeg" group-title="Рок" radio="true", Radio BOB! Grunge
+http://str3.pcradio.ru/bobde_grunge-hi
 #EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1606979328-350.jpeg" group-title="Поп" radio="true", Жара FM 100.5
 http://str3.pcradio.ru/zhara_fm-hi
 #EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1606989810-350.jpeg" group-title="Религия, Духовная" radio="true", Radio Yakhal FM
@@ -1511,6 +1527,20 @@ http://str3.pcradio.ru/ultimo_mix_ecu-hi
 http://str3.pcradio.ru/guetersloh_de-hi
 #EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1606995499-350.jpeg" group-title="Религия, Духовная" radio="true", Sweety FM
 http://str3.pcradio.ru/sweety_fm-hi
+#EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1606995934-350.jpeg" group-title="Прошлых лет" radio="true", Nostalgic FM
+http://str3.pcradio.ru/nostalgic_ro-hi
+#EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1606997906-350.jpeg" group-title="Джаз, Блюз, Соул" radio="true", Радио Рыжий Сентябрь
+http://str3.pcradio.ru/ryzhiy_sent-hi
+#EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1607000554-350.jpeg" group-title="Релакс, Легкая музыка" radio="true", Nicefm
+http://str3.pcradio.ru/nicefm_ru-hi
+#EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1607001343-350.jpeg" group-title="Рэп, Хип-хоп, RnB" radio="true", Badradio
+http://str3.pcradio.ru/badradio_nz-hi
+#EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1607001436-350.jpeg" group-title="Танцевальная" radio="true", VOX FM
+http://str3.pcradio.ru/voxfm_pl-hi
+#EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1607001636-350.jpeg" group-title="Поп;Прошлых лет" radio="true", Radio Piekary 88.7 FM
+http://str3.pcradio.ru/piekary_887-hi
+#EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1607003001-350.jpeg" group-title="Смешанный" radio="true", Freies Radio Salzkammergut
+http://str3.pcradio.ru/freies_salz_at-hi
 #EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1604610138-350.jpeg" group-title="Танцевальная;Электронная" radio="true", Club Dance Radio Online
 http://str3.pcradio.ru/club_dance-hi
 #EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1604598756-350.jpeg" group-title="Поп" radio="true", Наше Радио (Our Radio)
@@ -1927,8 +1957,6 @@ http://str3.pcradio.ru/bellissima_italia-hi
 http://str3.pcradio.ru/kissfm_com_br-hi
 #EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1588346335-350.jpeg" group-title="Новости, Разговорное;Спорт" radio="true", Super Rádio Tupi 96,5
 http://str3.pcradio.ru/tupifm_965_rj-hi
-#EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1588346415-350.jpeg" group-title="Новости, Разговорное" radio="true", Radio ANNA-News
-http://str3.pcradio.ru/anna_news-hi
 #EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1588346844-350.jpeg" group-title="Поп" radio="true", Radio Bellissima Hits
 http://str3.pcradio.ru/bellissima_it_hits-hi
 #EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1588159979-350.jpeg" group-title="Новости, Разговорное" radio="true", Radio Aventura Siglo 21
@@ -2423,30 +2451,6 @@ http://str3.pcradio.ru/cosmicwa_progress-hi
 http://str3.pcradio.ru/cosmicwaves_chill-hi
 #EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1585168816-350.jpeg" group-title="Релакс, Легкая музыка" radio="true", Cosmic Waves - Ambient
 http://str3.pcradio.ru/cosmicwaves_ru-hi
-#EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1584138501-350.jpeg" group-title="Юмор" radio="true", Joke FM
-http://str3.pcradio.ru/jokefm_de-hi
-#EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1584139409-350.jpeg" group-title="Рок" radio="true", Radio Ostrock
-http://str3.pcradio.ru/ostrock_de-hi
-#EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1587466198-350.jpeg" group-title="Прошлых лет;Национальная" radio="true", 1a NDW
-http://str3.pcradio.ru/erstea_ndw-hi
-#EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1584140979-350.jpeg" group-title="Инди;Разное" radio="true", 48 FM Liege
-http://str3.pcradio.ru/liege_48fm-hi
-#EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1584141184-350.jpeg" group-title="Поп;Национальная" radio="true", Astra Deutschpop
-http://str3.pcradio.ru/astradeutsch_laut-hi
-#EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1584141864-350.jpeg" group-title="Разное" radio="true", Radio Nouvelle Generation
-http://str3.pcradio.ru/nouvelle_gener_sd-hi
-#EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1584141749-350.jpeg" group-title="Новости, Разговорное" radio="true", Babboleo News
-http://str3.pcradio.ru/babboleo_news-hi
-#EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1584142421-350.jpeg" group-title="Религия, Духовная" radio="true", Radio Tele Milenaire 98.5
-http://str3.pcradio.ru/tele_milenaire-hi
-#EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1584142520-350.jpeg" group-title="Национальная" radio="true", Radio Nippes FM 100.5
-http://str3.pcradio.ru/nippes_1005-hi
-#EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1584142768-350.jpeg" group-title="Электронная" radio="true", Technocafe
-http://str3.pcradio.ru/technocafe_ol-hi
-#EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1584142869-350.jpeg" group-title="Поп" radio="true", Alouette
-http://str3.pcradio.ru/alouette_fr-hi
-#EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1584143245-350.jpeg" group-title="Поп" radio="true", MEGA Radio Bayern
-http://str3.pcradio.ru/megaradio_bayern-hi
 #EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1584143405-350.jpeg" group-title="Прошлых лет" radio="true", MEGA Radio 80s
 http://str3.pcradio.ru/megaradio_80s-hi
 #EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1584143499-350.jpeg" group-title="Религия, Духовная" radio="true", Radio Freundes-Dienst
@@ -2553,8 +2557,6 @@ http://str3.pcradio.ru/radioparadise_eclectic-hi
 http://str3.pcradio.ru/gospel_nebesa-hi
 #EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1584133688-350.jpeg" group-title="Танцевальная;Электронная" radio="true", Yellow Radio
 http://str3.pcradio.ru/yellow_radio-hi
-#EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1584133812-350.jpeg" group-title="Детям" radio="true", AeroBeat
-http://str3.pcradio.ru/aero_beat_com-hi
 #EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1584133885-350.jpeg" group-title="Смешанный" radio="true", EMR
 http://str3.pcradio.ru/laut_emr-hi
 #EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1584133998-350.jpeg" group-title="Национальная" radio="true", Кавказ Хит
@@ -2605,6 +2607,30 @@ http://str3.pcradio.ru/paloma_partyschlag-hi
 http://str3.pcradio.ru/arvorig_fm-hi
 #EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1584138319-350.jpeg" group-title="Джаз, Блюз, Соул" radio="true", Cool Jazz Florida
 http://str3.pcradio.ru/cooljazz_flo-hi
+#EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1584138501-350.jpeg" group-title="Юмор" radio="true", Joke FM
+http://str3.pcradio.ru/jokefm_de-hi
+#EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1584139409-350.jpeg" group-title="Рок" radio="true", Radio Ostrock
+http://str3.pcradio.ru/ostrock_de-hi
+#EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1587466198-350.jpeg" group-title="Прошлых лет;Национальная" radio="true", 1a NDW
+http://str3.pcradio.ru/erstea_ndw-hi
+#EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1584140979-350.jpeg" group-title="Инди;Разное" radio="true", 48 FM Liege
+http://str3.pcradio.ru/liege_48fm-hi
+#EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1584141184-350.jpeg" group-title="Поп;Национальная" radio="true", Astra Deutschpop
+http://str3.pcradio.ru/astradeutsch_laut-hi
+#EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1584141864-350.jpeg" group-title="Разное" radio="true", Radio Nouvelle Generation
+http://str3.pcradio.ru/nouvelle_gener_sd-hi
+#EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1584141749-350.jpeg" group-title="Новости, Разговорное" radio="true", Babboleo News
+http://str3.pcradio.ru/babboleo_news-hi
+#EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1584142421-350.jpeg" group-title="Религия, Духовная" radio="true", Radio Tele Milenaire 98.5
+http://str3.pcradio.ru/tele_milenaire-hi
+#EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1584142520-350.jpeg" group-title="Национальная" radio="true", Radio Nippes FM 100.5
+http://str3.pcradio.ru/nippes_1005-hi
+#EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1584142768-350.jpeg" group-title="Электронная" radio="true", Technocafe
+http://str3.pcradio.ru/technocafe_ol-hi
+#EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1584142869-350.jpeg" group-title="Поп" radio="true", Alouette
+http://str3.pcradio.ru/alouette_fr-hi
+#EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1584143245-350.jpeg" group-title="Поп" radio="true", MEGA Radio Bayern
+http://str3.pcradio.ru/megaradio_bayern-hi
 #EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1584118535-350.jpeg" group-title="Поп" radio="true", Европа (Самара)
 http://str3.pcradio.ru/evropa_samara-hi
 #EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1584118840-350.jpeg" group-title="Рок;Инди" radio="true", ABC Triple J
@@ -3207,8 +3233,6 @@ http://str3.pcradio.ru/oldiwelle_com-hi
 http://str3.pcradio.ru/rsa_griass_allgau-hi
 #EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1550242821-350.jpeg" group-title="Новости, Разговорное" radio="true", Free FM (Коломбо)
 http://str3.pcradio.ru/freefm_lk-hi
-#EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1550107175-350.jpeg" group-title="Религия, Духовная" radio="true", Rádio Santa Rita de Cássia
-http://str3.pcradio.ru/santarita_cassia-hi
 #EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1550107905-350.jpeg" group-title="Рок" radio="true", 102.1 The Edge
 http://str3.pcradio.ru/theedge_1021-hi
 #EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1550108215-350.jpeg" group-title="Релакс, Легкая музыка" radio="true", Радио Проводач (Provodach)
@@ -3481,20 +3505,6 @@ http://str3.pcradio.ru/ara_lu-hi
 http://str3.pcradio.ru/wjcu_887-hi
 #EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1548285545-350.jpeg" group-title="Танцевальная" radio="true", Pulse 87
 http://str3.pcradio.ru/pulse_87-hi
-#EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1548174707-350.jpeg" group-title="Прошлых лет" radio="true", 80s80s Radio
-http://str3.pcradio.ru/eightys80s_radio-hi
-#EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1548174804-350.jpeg" group-title="Прошлых лет" radio="true", 80s80s NDW
-http://str3.pcradio.ru/eightys80s_ndw-hi
-#EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1548174865-350.jpeg" group-title="Прошлых лет" radio="true", 80s80s Love
-http://str3.pcradio.ru/eightys80s_love-hi
-#EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1548174923-350.jpeg" group-title="Прошлых лет" radio="true", 80s80s Party
-http://str3.pcradio.ru/eightys80s_party-hi
-#EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1548175035-350.jpeg" group-title="Детям" radio="true", Машенька
-http://str3.pcradio.ru/mashenka-hi
-#EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1548175165-350.jpeg" group-title="Разное" radio="true", Popradio Ostfriesland
-http://str3.pcradio.ru/popradio_ost-hi
-#EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1548175237-350.jpeg" group-title="Прошлых лет" radio="true", Angel Radio
-http://str3.pcradio.ru/angelradio_couk-hi
 #EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1548176934-350.jpeg" group-title="Поп" radio="true", Radio Lübeck
 http://str3.pcradio.ru/radioluebeck_de-hi
 #EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1548177069-350.jpeg" group-title="Смешанный" radio="true", Radio Bochum 98.5 FM
@@ -3551,6 +3561,20 @@ http://str3.pcradio.ru/discoradio_it-hi
 http://str3.pcradio.ru/slavic_family-hi
 #EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1548174660-350.jpeg" group-title="Релакс, Легкая музыка" radio="true", ChillTrax
 http://str3.pcradio.ru/chilltrax_com-hi
+#EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1548174707-350.jpeg" group-title="Прошлых лет" radio="true", 80s80s Radio
+http://str3.pcradio.ru/eightys80s_radio-hi
+#EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1548174804-350.jpeg" group-title="Прошлых лет" radio="true", 80s80s NDW
+http://str3.pcradio.ru/eightys80s_ndw-hi
+#EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1548174865-350.jpeg" group-title="Прошлых лет" radio="true", 80s80s Love
+http://str3.pcradio.ru/eightys80s_love-hi
+#EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1548174923-350.jpeg" group-title="Прошлых лет" radio="true", 80s80s Party
+http://str3.pcradio.ru/eightys80s_party-hi
+#EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1548175035-350.jpeg" group-title="Детям" radio="true", Машенька
+http://str3.pcradio.ru/mashenka-hi
+#EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1548175165-350.jpeg" group-title="Разное" radio="true", Popradio Ostfriesland
+http://str3.pcradio.ru/popradio_ost-hi
+#EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1548175237-350.jpeg" group-title="Прошлых лет" radio="true", Angel Radio
+http://str3.pcradio.ru/angelradio_couk-hi
 #EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1548104642-350.jpeg" group-title="Метал" radio="true", Metal Live Radio
 http://str3.pcradio.ru/metal_live_radio-hi
 #EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1624909223-350.jpeg" group-title="Поп" radio="true", Бурлеск FM
@@ -3733,7 +3757,7 @@ http://str3.pcradio.ru/timisoara_ro-hi
 http://str3.pcradio.ru/natale_it-hi
 #EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1547509963-350.jpeg" group-title="Разное" radio="true", Всемирное Одесское радио
 http://str3.pcradio.ru/world_odessa-hi
-#EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1547510167-350.jpeg" group-title="Поп" radio="true", ЯпаРадио
+#EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1673796478-350.jpeg" group-title="Танцевальная;Электронная" radio="true", ЯпаРадио
 http://str3.pcradio.ru/yapa_radio-hi
 #EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1547262787-350.jpeg" group-title="Национальная" radio="true", A.R. Rahman Radio Tamil (ARR)
 http://str3.pcradio.ru/arr_radio-hi
@@ -3767,8 +3791,6 @@ http://str3.pcradio.ru/gold_ro-hi
 http://str3.pcradio.ru/oestfm_dk-hi
 #EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1562601563-350.jpeg" group-title="Поп;Танцевальная" radio="true", Joy Hits
 http://str3.pcradio.ru/joyhits_online-hi
-#EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1538956129-350.jpeg" group-title="Джаз, Блюз, Соул" radio="true", Old Fashioned Radio. Show and Music
-http://str3.pcradio.ru/olr_jazz-hi
 #EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1538968628-350.jpeg" group-title="Разное" radio="true", Radio North Pole
 http://str3.pcradio.ru/northpole_ala-hi
 #EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1538969641-350.jpeg" group-title="Танцевальная" radio="true", Fresh Radio
@@ -3931,8 +3953,6 @@ http://str3.pcradio.ru/yacht_radio-hi
 http://str3.pcradio.ru/santacruz_irfa-hi
 #EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1530458256-350.jpeg" group-title="Религия, Духовная" radio="true", Radio Pokoj
 http://str3.pcradio.ru/pokoj_sk-hi
-#EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1530458316-350.jpeg" group-title="Новости, Разговорное" radio="true", Radio Provincia 1270 AM
-http://str3.pcradio.ru/provincia_1270-hi
 #EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1530458472-350.jpeg" group-title="Поп" radio="true", Miami Beach Radio
 http://str3.pcradio.ru/miamibeach_radio-hi
 #EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1530458766-350.jpeg" group-title="Новости, Разговорное" radio="true", Радио России - Южный Урал
@@ -4547,16 +4567,6 @@ http://str3.pcradio.ru/record_remix-hi
 http://str3.pcradio.ru/record_gast-hi
 #EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1511124531-350.jpeg" group-title="Электронная" radio="true", Record Hard Bass
 http://str3.pcradio.ru/record_hbass-hi
-#EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1509560408-350.jpeg" group-title="Поп;Смешанный" radio="true", Radio Top
-http://str3.pcradio.ru/toponline_ch1-hi
-#EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1509560464-350.jpeg" group-title="Прошлых лет" radio="true", Radio Top Two
-http://str3.pcradio.ru/toponline_ch2-hi
-#EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1509560524-350.jpeg" group-title="Поп" radio="true", Radio Hamburg 103.6 FM
-http://str3.pcradio.ru/radiohamburg_de-hi
-#EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1509560578-350.jpeg" group-title="Рок" radio="true", Radio Hamburg 2
-http://str3.pcradio.ru/radiohamburg2_de-hi
-#EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1509560699-350.jpeg" group-title="Рок;Инди" radio="true", 917XFM
-http://str3.pcradio.ru/xfm917-hi
 #EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1509560749-350.jpeg" group-title="Смешанный" radio="true", Radio AWN
 http://str3.pcradio.ru/awn_de-hi
 #EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1509560814-350.jpeg" group-title="Поп;Новости, Разговорное" radio="true", unserRadio
@@ -4633,6 +4643,16 @@ http://str3.pcradio.ru/radiocentral_ch-hi
 http://str3.pcradio.ru/fm1_nord-hi
 #EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1509560347-350.jpeg" group-title="Поп" radio="true", FM1 Sued
 http://str3.pcradio.ru/fm1_sued-hi
+#EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1509560408-350.jpeg" group-title="Поп;Смешанный" radio="true", Radio Top
+http://str3.pcradio.ru/toponline_ch1-hi
+#EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1509560464-350.jpeg" group-title="Прошлых лет" radio="true", Radio Top Two
+http://str3.pcradio.ru/toponline_ch2-hi
+#EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1509560524-350.jpeg" group-title="Поп" radio="true", Radio Hamburg 103.6 FM
+http://str3.pcradio.ru/radiohamburg_de-hi
+#EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1509560578-350.jpeg" group-title="Рок" radio="true", Radio Hamburg 2
+http://str3.pcradio.ru/radiohamburg2_de-hi
+#EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1509560699-350.jpeg" group-title="Рок;Инди" radio="true", 917XFM
+http://str3.pcradio.ru/xfm917-hi
 #EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1596677218-350.jpeg" group-title="Электронная" radio="true", Radio Caprice - Spacesynth - Synthdance
 http://str3.pcradio.ru/radcap_spacesynth-hi
 #EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1509358305-350.jpeg" group-title="Танцевальная" radio="true", 90s90s Dance
@@ -5117,8 +5137,6 @@ http://str3.pcradio.ru/italia_stoccarda-hi
 http://str3.pcradio.ru/radio_m1_com-hi
 #EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1496859193-350.jpeg" group-title="Новости, Разговорное" radio="true", Oe1 (Österreich 1)
 http://str3.pcradio.ru/oe1_wien-hi
-#EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1496859274-350.jpeg" group-title="Шансон" radio="true", Обозреватель - Шансон
-http://str3.pcradio.ru/obozrevatel_shanson-hi
 #EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1496351573-350.jpeg" group-title="Поп" radio="true", Love Is Radio
 http://str3.pcradio.ru/loveis_by-hi
 #EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1496351667-350.jpeg" group-title="Рок" radio="true", T-Rock 103.8 FM
@@ -5185,8 +5203,6 @@ http://str3.pcradio.ru/focus_hu-hi
 http://str3.pcradio.ru/br_heimat-hi
 #EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1495797009-350.jpeg" group-title="Поп" radio="true", Push FM
 http://str3.pcradio.ru/laut_pushfm-hi
-#EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1495797124-350.jpeg" group-title="Электронная;Джаз, Блюз, Соул" radio="true", Обозреватель - Эйсид джаз
-http://str3.pcradio.ru/obozrevatel_acidjazz-hi
 #EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1495797224-350.jpeg" group-title="Разное" radio="true", JamZONE - КАВЕРадио
 http://str3.pcradio.ru/jamzone_cover-hi
 #EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1495797319-350.jpeg" group-title="Рок" radio="true", JamZONE - Для Тех Кому Не По
@@ -5533,8 +5549,6 @@ http://str3.pcradio.ru/rad_alros-hi
 http://str3.pcradio.ru/global_funk-hi
 #EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1489435253-350.jpeg" group-title="Юмор" radio="true", Mercy Rádió - Kabaré
 http://str3.pcradio.ru/mercyradio_kabare-hi
-#EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1489435372-350.jpeg" group-title="Шансон" radio="true", Обозреватель - Лирика шансона
-http://str3.pcradio.ru/obozrevatel_lyric_shans-hi
 #EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1489435476-350.jpeg" group-title="Новости, Разговорное" radio="true", BBC World Service
 http://str3.pcradio.ru/rad_bworser-hi
 #EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1489008145-350.jpeg" group-title="Прошлых лет" radio="true", Sláger FM
@@ -5703,7 +5717,7 @@ http://str3.pcradio.ru/energyfm_com_au-hi
 http://str3.pcradio.ru/enigmatic_su1-hi
 #EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1477738043-350.jpeg" group-title="Релакс, Легкая музыка" radio="true", Enigmatic station III
 http://str3.pcradio.ru/enigmatic_su3-hi
-#EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1501769389-350.jpeg" group-title="Метал" radio="true", RPR1. Heavy Metal
+#EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1673790895-350.jpeg" group-title="Метал" radio="true", RPR1. Heavy Metal
 http://str3.pcradio.ru/rpr1_de_metal-hi
 #EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1477739403-350.jpeg" group-title="Релакс, Легкая музыка" radio="true", Спокойное радио
 http://str3.pcradio.ru/spokoinoeradioru-hi
@@ -6399,7 +6413,7 @@ http://str3.pcradio.ru/rockantenne_alternative-hi
 http://str3.pcradio.ru/rockantenne_heavymetal-hi
 #EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1458911614-350.jpeg" group-title="Метал" radio="true", MetalMusicRadio
 http://str3.pcradio.ru/metalmusicradio_com-hi
-#EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1501769031-350.jpeg" group-title="Йога, Спа, Медитация" radio="true", RPR1. Yoga Sounds
+#EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1673796300-350.jpeg" group-title="Йога, Спа, Медитация" radio="true", RPR1. Yoga Sounds
 http://str3.pcradio.ru/rpr1_de_pur-hi
 #EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1547812354-350.jpeg" group-title="Рок" radio="true", RPR1. Hard Rock
 http://str3.pcradio.ru/rpr1_hardrock-hi
@@ -7787,8 +7801,6 @@ http://str3.pcradio.ru/graal_future-hi
 http://str3.pcradio.ru/graal_sensual-hi
 #EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1582190852-350.jpeg" group-title="Рок" radio="true", Radio Paradise
 http://str3.pcradio.ru/radioparadise_com-hi
-#EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1453840870-350.jpeg" group-title="Смешанный;Инди" radio="true", Cardiowave
-http://str3.pcradio.ru/cardiowave_net-hi
 #EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1618222735-350.png" group-title="Прошлых лет" radio="true", Радиола 103,0 FM (Саратов)
 http://str3.pcradio.ru/radiola_saratov-hi
 #EXTINF:-1 tvg-logo="http://stream.pcradio.ru/list/thumbnail/thumbnail350/1470250728-350.jpeg" group-title="Поп" radio="true", Новое Радио (Молдавия)
